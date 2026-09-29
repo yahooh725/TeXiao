@@ -1,0 +1,22 @@
+{
+  "name": "facestylelens-agent-mvp-renderer",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx AgentResult"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.295",
+    "@remotion/renderer": "4.0.295",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remotion": "4.0.295"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "typescript": "5.4.5"
+  }
+}

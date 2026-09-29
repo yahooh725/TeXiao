@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#eaf6e8"/>
+  <circle cx="130" cy="130" r="65" fill="#9ccf9c"/><circle cx="390" cy="355" r="90" fill="#75b8d4"/>
+  <text x="256" y="260" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#385">No-face fixture</text>
+</svg>

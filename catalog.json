@@ -1,0 +1,31 @@
+{
+  "catalog_version": "local-0.1",
+  "provider": "local",
+  "license_policy": "project-generated-assets-only",
+  "assets": [
+    {
+      "asset_id": "local.bunny.ears",
+      "queries": ["小兔子", "兔子", "兔耳朵", "bunny"],
+      "asset_kind": "face_overlay",
+      "path": "assets/rabbit_ears.svg",
+      "license": "project-generated",
+      "sha256": "runtime-computed"
+    },
+    {
+      "asset_id": "local.bunny.nose",
+      "queries": ["小兔子", "兔子", "兔鼻子", "bunny"],
+      "asset_kind": "face_overlay",
+      "path": "assets/rabbit_nose.svg",
+      "license": "project-generated",
+      "sha256": "runtime-computed"
+    },
+    {
+      "asset_id": "local.bunny.whiskers",
+      "queries": ["小兔子", "兔子", "兔胡须", "bunny"],
+      "asset_kind": "face_overlay",
+      "path": "assets/rabbit_whiskers.svg",
+      "license": "project-generated",
+      "sha256": "runtime-computed"
+    }
+  ]
+}

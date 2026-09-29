@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f4f8ff"/>
+      <stop offset="1" stop-color="#fff7fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#334155" flood-opacity=".16"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="520" fill="url(#bg)"/>
+  <text x="70" y="58" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172554">FaceStyleLens Agent v2 MVP</text>
+  <text x="70" y="92" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#475569">自然语言创意 → 结构化计划 → 工具执行 → Remotion 渲染 → 工程验证</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="170" width="220" height="180" rx="20" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+    <rect x="350" y="170" width="220" height="180" rx="20" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+    <rect x="630" y="170" width="250" height="180" rx="20" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <rect x="940" y="170" width="220" height="180" rx="20" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+    <rect x="1220" y="170" width="120" height="180" rx="20" fill="#fce7f3" stroke="#ec4899" stroke-width="2"/>
+  </g>
+
+  <g font-family="Microsoft YaHei, sans-serif" text-anchor="middle">
+    <text x="180" y="220" font-size="23" font-weight="700" fill="#1e3a8a">用户指令</text>
+    <text x="180" y="260" font-size="17" fill="#1e40af">“加小兔子特效”</text>
+    <text x="180" y="292" font-size="17" fill="#1e40af">“轻微美颜”</text>
+    <text x="180" y="324" font-size="17" fill="#1e40af">“镜头慢慢推进”</text>
+
+    <text x="460" y="220" font-size="23" font-weight="700" fill="#4c1d95">Planner</text>
+    <text x="460" y="260" font-size="17" fill="#5b21b6">Schema 校验</text>
+    <text x="460" y="292" font-size="17" fill="#5b21b6">Allow-list 工具</text>
+    <text x="460" y="324" font-size="17" fill="#5b21b6">参数约束</text>
+
+    <text x="755" y="220" font-size="23" font-weight="700" fill="#14532d">工具层</text>
+    <text x="755" y="258" font-size="16" fill="#166534">特效目录检索</text>
+    <text x="755" y="286" font-size="16" fill="#166534">人脸轨迹 / 素材叠加</text>
+    <text x="755" y="314" font-size="16" fill="#166534">轻微美颜参数</text>
+    <text x="755" y="342" font-size="16" fill="#166534">Kuaishou Adapter（禁用）</text>
+
+    <text x="1050" y="220" font-size="23" font-weight="700" fill="#7c2d12">Remotion</text>
+    <text x="1050" y="260" font-size="17" fill="#9a3412">JSON props</text>
+    <text x="1050" y="292" font-size="17" fill="#9a3412">兔子贴纸</text>
+    <text x="1050" y="324" font-size="17" fill="#9a3412">慢推镜头</text>
+
+    <text x="1280" y="220" font-size="23" font-weight="700" fill="#831843">验证</text>
+    <text x="1280" y="260" font-size="16" fill="#9d174d">MP4</text>
+    <text x="1280" y="288" font-size="16" fill="#9d174d">30fps</text>
+    <text x="1280" y="316" font-size="16" fill="#9d174d">轨迹</text>
+    <text x="1280" y="344" font-size="16" fill="#9d174d">JSON 报告</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M290 260 H345"/>
+    <path d="M570 260 H625"/>
+    <path d="M880 260 H935"/>
+    <path d="M1160 260 H1215"/>
+  </g>
+
+  <text x="70" y="440" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#64748b">当前 MVP 使用本地生成素材和演示 fixture；快手真实 API 需要后续授权接入。</text>
+</svg>

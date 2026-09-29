@@ -1,0 +1,16 @@
+{
+  "manifest_version": "fixtures-0.1",
+  "dataset_role": "engineering_demo_only",
+  "v1_final_test_access": false,
+  "fps": 30,
+  "duration_frames": 150,
+  "license": "project-generated-fixtures",
+  "fixtures": [
+    {"id": "normal_single_face", "path": "fixtures/normal_single_face.svg", "scenario": "normal", "face_count": 1, "license": "project-generated", "sha256": "runtime-computed"},
+    {"id": "no_face", "path": "fixtures/no_face.svg", "scenario": "no_face", "face_count": 0, "license": "project-generated", "sha256": "runtime-computed"},
+    {"id": "multiple_faces", "path": "fixtures/multiple_faces.svg", "scenario": "multiple_faces", "face_count": 2, "license": "project-generated", "sha256": "runtime-computed"},
+    {"id": "unsupported_effect", "path": "fixtures/normal_single_face.svg", "scenario": "unsupported_effect", "face_count": 1, "license": "project-generated", "sha256": "runtime-computed"},
+    {"id": "missing_asset", "path": "fixtures/normal_single_face.svg", "scenario": "missing_asset", "face_count": 1, "license": "project-generated", "sha256": "runtime-computed"},
+    {"id": "invalid_video", "path": "fixtures/invalid_video.txt", "scenario": "invalid_video", "face_count": null, "license": "project-generated", "sha256": "runtime-computed"}
+  ]
+}
